@@ -13,7 +13,7 @@ function for_all_subdirs()
       cd $subdir
       if [ -d ".git" ]
       then
-        echo "$action_name $subdir"
+        echo "   $subdir"
         $action &
       else
         echo "Skipping $subdir."
