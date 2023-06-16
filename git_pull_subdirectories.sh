@@ -29,7 +29,7 @@ function git_fetch() {
   git fetch --quiet
 }
 function git_reset() {
-  git reset --hard --quiet
+  git reset --quiet
 }
 function git_pull() {
   git pull --quiet
