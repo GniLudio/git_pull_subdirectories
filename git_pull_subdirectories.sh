@@ -5,7 +5,7 @@ function for_all_subdirs()
 {
   local action_name="$1"
   local action=$2
-  echo $action_name
+  echo "$action_name"
   for subdir in `ls`
   do
     if [ -d "$subdir" ]
